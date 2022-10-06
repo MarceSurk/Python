@@ -60,10 +60,10 @@ for alumno in alumnos:
     print("la edad de",alumno["nombre"],"es:",alumno["edad"],"años")"""
 
 
-
-entrada = int(input("Escribe algo\n"))
-
-
-for numero in range(0,11,1):
-    multi = entrada*numero
-    print(entrada, "x", numero, "=", multi)
+#Tabla de multiplicar
+def multiplicar():
+    entrada = int(input("Escribe algo\n"))
+    for numero in range(0,11,1):
+        multi = entrada*numero
+        print(entrada, "x", numero, "=", multi)
+multiplicar()
