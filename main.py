@@ -44,7 +44,7 @@ diccionario["ocupacion"] = "Administrar"
 diccionario["Edad"] = 32
 #Eliminar un calor del diccionario
 diccionario.pop("nombre")
-print(diccionario)"""
+print(diccionario)
 
 alumnos =  [
     {
@@ -57,4 +57,13 @@ alumnos =  [
     }
 ]
 for alumno in alumnos:
-    print("la edad de",alumno["nombre"],"es:",alumno["edad"],"años")
+    print("la edad de",alumno["nombre"],"es:",alumno["edad"],"años")"""
+
+
+
+entrada = int(input("Escribe algo\n"))
+
+
+for numero in range(0,11,1):
+    multi = entrada*numero
+    print(entrada, "x", numero, "=", multi)
